@@ -25,7 +25,7 @@ export default function Home({ treatments }) {
       <section className={utilStyles.headingMd}>
         <p>Hello fuckers, I am Rodders init</p>
         <p>
-          (This is a shit site that I made using next.js{' '}
+          (This is a fucking shit site that I made using next.js{' '}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section>
