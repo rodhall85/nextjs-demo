@@ -18,7 +18,7 @@ export async function getStaticProps() {
 
 export default function Home({ treatments }) {
   return (
-    <Layout home>
+    <Layout className="font-fancy" home>
       <Head>
         <title>{siteTitle}</title>
       </Head>

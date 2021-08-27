@@ -31,8 +31,8 @@ export default function Treatment({ treatmentData: { fields: { name, fromDate, p
             <Head>
                 <title>{name}</title>
             </Head>
-            <article>
-                <h1 className={utilStyles.headingXl}>&pound;{price}</h1>
+            <article className="font-fancy">
+                <h1 className="bg-red-50">&pound;{price}</h1>
                 <div className={utilStyles.lightText}>
                     {fromDate}
                 </div>
